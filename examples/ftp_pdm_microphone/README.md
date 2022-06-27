@@ -53,7 +53,7 @@ The following serial terminal program and FTP server are required for FTP Client
 
 1. After completing the ftp_client example configuration, click 'build' in the status bar at the bottom of Visual Studio Code or press the 'F7' button on the keyboard to build.
 
-2. When the build is completed, 'w5x00_ftp_client.uf2' is generated in 'RP2040-HAT-C/build/examples/ftp/client' directory.
+2. When the build is completed, 'w5x00_ftp_pdm_microphone.uf2' is generated in 'RP2040-HAT-C/build/examples/ftp_pdm_microphone' directory.
 
 
 

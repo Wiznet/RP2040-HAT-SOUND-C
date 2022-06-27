@@ -61,13 +61,13 @@ The following serial terminal program and FTP server are required for FTP Client
 
 **w5x00_ftp_client.uf2 Firmware Upload**
 
-- While pressing the BOOTSEL button of Raspberry Pi Pico, W5100S-EVB-Pico or W5500-EVB-Pico power on the board, the USB mass storage 'RPI-RP2' is automatically mounted.
+- While pressing the BOOTSEL button of Raspberry Pi Pico, W5100S-EVB-Pico or W5500-EVB-Pico power on the board, the USB mass storage '**RPI-RP2**' is automatically mounted.
 
 ![][link-uf2_upload]
 
 
 
-- Drag and drop 'w5x00_ftp_client.uf2' onto the USB mass storage device 'RPI-RP2
+- Drag and drop '**w5x00_ftp_pdm_microphone.uf2**' onto the USB mass storage device 'RPI-RP2
 - Connect to the serial COM port of Raspberry Pi Pico, W5100S-EVB-Pico or W5500-EVB-Pico with Tera Term.
 
 ![][link-teraterm]

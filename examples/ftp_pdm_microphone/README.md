@@ -119,7 +119,7 @@ Link
 -->
 
 [link-tera_term]: https://osdn.net/projects/ttssh2/releases/
-[link-hercules]: https://www.hw-group.com/software/hercules-setup-utility
+[link-filezilla_server]: https://filezilla-project.org/
 [link-pin_connectivity]: https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/pin_connectivity.png
 [link-Filezilla_server_1]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/Filezilla_server_1.png
 [link-Filezilla_server_2]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/Filezilla_server_2.png

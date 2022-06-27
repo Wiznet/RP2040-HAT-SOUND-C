@@ -93,10 +93,10 @@ index 6c35920..79d98bd 100644
 +#if 0
 +				printf("[%3d] : ", i);
 +				for (i = 0; i < pdm_length; i++){
-+    			    printf("%02x ", (PDM_dat[i])&0x000000ff);
++                   printf("%02x ", (PDM_dat[i])&0x000000ff);
 +					if((i+1)%16 ==0)
-+						printf("\r\n [%3d] : ", i);
-+    			}
++                       printf("\r\n [%3d] : ", i);
++               }
  #endif
 -				printf("----------------------------------------\r\n");
 -				while(1){

@@ -15,7 +15,7 @@ set(IOLIBRARY_DRIVER_SRC_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/libraries/ioLibrary_
 set(PICO_EXTRAS_SRC_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/libraries/pico-extras")
 set(PICO_SDK_SRC_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/libraries/pico-sdk")
 set(PICO_SDK_TINYUSB_SRC_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/libraries/lib/tinyusb")
-set(RP2040_HAT_C_PATCH_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/patches")
+set(RP2040_HAT_SOUND_C_PATCH_DIR "${RP2040_HAT_SOUND_C_SRC_DIR}/patches")
 
 # Delete untracked files in ioLibrary_Driver
 if(EXISTS "${IOLIBRARY_DRIVER_SRC_DIR}/.git")
@@ -57,7 +57,7 @@ execute_process(COMMAND ${GIT_EXECUTABLE} -C ${PICO_SDK_SRC_DIR} submodule updat
 message("submodules ioLibrary_Driver initialised")
 
 file(GLOB IOLIBRARY_DRIVER_PATCHES
-	"${RP2040_HAT_C_PATCH_DIR}/01_iolibrary_driver_sound_ftp.patch"
+	"${RP2040_HAT_SOUND_C_PATCH_DIR}/01_iolibrary_driver_sound_ftp.patch"
 	)
 
 foreach(IOLIBRARY_DRIVER_PATCH IN LISTS IOLIBRARY_DRIVER_PATCHES)

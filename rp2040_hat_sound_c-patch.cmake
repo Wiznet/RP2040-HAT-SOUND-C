@@ -57,7 +57,7 @@ execute_process(COMMAND ${GIT_EXECUTABLE} -C ${PICO_SDK_SRC_DIR} submodule updat
 message("submodules ioLibrary_Driver initialised")
 
 file(GLOB IOLIBRARY_DRIVER_PATCHES
-	"${RP2040_HAT_C_PATCH_DIR}/01_iolibrary_driver_ftp_client.patch"
+	"${RP2040_HAT_C_PATCH_DIR}/01_iolibrary_driver_sound_ftp.patch"
 	)
 
 foreach(IOLIBRARY_DRIVER_PATCH IN LISTS IOLIBRARY_DRIVER_PATCHES)
@@ -65,5 +65,20 @@ foreach(IOLIBRARY_DRIVER_PATCH IN LISTS IOLIBRARY_DRIVER_PATCHES)
 	execute_process(
 		COMMAND ${GIT_EXECUTABLE} apply ${IOLIBRARY_DRIVER_PATCH}
 		WORKING_DIRECTORY ${IOLIBRARY_DRIVER_SRC_DIR}
+	)
+endforeach()
+
+# pico-sdk patch
+message("submodules pico-sdk initialised")
+
+file(GLOB PICO_SDK_PATCHES
+	"${RP2040_HAT_SOUND_C_PATCH_DIR}/02_pico_sdk_heap_memory.patch"
+	)
+
+foreach(PICO_SDK_PATCH IN LISTS PICO_SDK_PATCHES)
+	message("Running patch ${PICO_SDK_PATCH}")
+	execute_process(
+		COMMAND ${GIT_EXECUTABLE} apply ${PICO_SDK_PATCH}
+		WORKING_DIRECTORY ${PICO_SDK_SRC_DIR}
 	)
 endforeach()

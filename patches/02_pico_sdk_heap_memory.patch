@@ -1,0 +1,13 @@
+diff --git a/src/rp2_common/pico_platform/include/pico/platform.h b/src/rp2_common/pico_platform/include/pico/platform.h
+index ee1d360..43cde12 100644
+--- a/src/rp2_common/pico_platform/include/pico/platform.h
++++ b/src/rp2_common/pico_platform/include/pico/platform.h
+@@ -28,7 +28,7 @@
+ 
+ // PICO_CONFIG: PICO_HEAP_SIZE, Heap size to reserve, min=0x100, default=0x800, advanced=true, group=pico_platform
+ #ifndef PICO_HEAP_SIZE
+-#define PICO_HEAP_SIZE _u(0x800)
++#define PICO_HEAP_SIZE _u(0x19000) 
+ #endif
+ 
+ // PICO_CONFIG: PICO_NO_RAM_VECTOR_TABLE, Enable/disable the RAM vector table, type=bool, default=0, advanced=true, group=pico_platform

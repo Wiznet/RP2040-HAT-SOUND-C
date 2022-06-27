@@ -1,5 +1,3 @@
-# RP2040-HAT-FTP-Transfer
-
 ![][link-transfer]
 
 

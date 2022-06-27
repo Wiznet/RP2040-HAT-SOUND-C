@@ -95,13 +95,7 @@ In this guide I used **Windows 10**, **Visual Studio Code** and **C/C++** based 
 - [Raspberry Pi documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 - [Getting started with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
-If you have any troubles following Raspberry Pi guide, then check below link, where author explains every installation step for environment preparation.
 
-- [Raspberry Pi Pico : C/C++ SDK and Toolchain Setup in Windows 10](https://www.arnabkumardas.com/platforms/rp2040/raspberry-pi-pico-sdk-and-toolchain-setup-in-windows-10/)
-
-Or, refer to my previous post – 'Let's use the Raspberry Pico Ethernet Example! - Development environment configuration'
-
-- [Let's use the Raspberry Pico Ethernet Example! - Development environment configuration](https://blog.naver.com/forever4191/222515594184)
 
 
 

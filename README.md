@@ -1,4 +1,8 @@
-# RP2040-HAT-SOUND-C
+# RP2040-HAT-FTP-Transfer
+
+![][link-transfer]
+
+
 
 ### OUTLINE
 
@@ -31,8 +35,6 @@ W5100S-EVB-Pico pinout is directly connected to the GPIO of RP2040 as shown in t
 
 
 ![][link-pdm_pulse]
-
-
 
 it's great for chips that do not have analog inputs. Secondly, the digital interface is a very simplistic **P**ulse **D**ensity **M**odulation output. It's digital but its *not* PWM and it's *not* I2S. PDM is a little like 1-bit PWM. You clock the mic with a 1 MHz - 3 MHz clock rate, and on the data line you'll get a square wave out that syncs with the clock. The data line with be 0 or 1 logic output, with the square wave creating a density that when averaged will result in the analog value out.
 
@@ -111,10 +113,11 @@ Or, refer to my previous post – 'Let's use the Raspberry Pico Ethernet Example
 Link
 -->
 
+[link-transfer]: https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/FTP%20Transfer.png
 [link-w5100s-evb-pico]: https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/w5100s-evb-pico.png
 [link-w5100s-evb-pico-pinout]: https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/w5100s-evb-pico-pinout.png
 [link-Adafruit_pdm-microphone]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/Adafruit_pdm-microphone.png
-[link-link-pdm_pulse]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/pdm_pulse.png
+[link-pdm_pulse]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/pdm_pulse.png
 [link-ftp_client_connection_1]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/ftp_client_connection_1.png
 [link-ftp_client_connection_2]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/ftp_client_connection_2.png
 [link-wav_audio]:https://github.com/Wiznet/RP2040-HAT-SOUND-C/blob/FTP-Microphone/static/images/ftp_pdm_microphone/wav_audio.png

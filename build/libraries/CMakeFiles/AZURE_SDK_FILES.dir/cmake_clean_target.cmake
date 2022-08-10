@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libAZURE_SDK_FILES.a"
+)

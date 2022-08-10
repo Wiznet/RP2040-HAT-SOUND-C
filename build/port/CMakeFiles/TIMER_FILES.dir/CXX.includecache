@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/teddy/Data/02_WorkSpace/01_RP_pico/pico_audio_streaming_Test/libraries/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+cstdlib
+-
+
